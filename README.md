@@ -12,8 +12,8 @@ As inspiration, we'll look at [confetti.events homepage](http://confetti.events/
 
 In this assignment we have collected six video files, three .mp4 and three .webm, in three video sizes for you to use. You can find them in the video folder of this repo. We will use the smallest format (360x240px) for mobile, second largest (720x480px) for tablets and the largest format (1280x720px) for desktop.
 
-To complete this assignemnt your code needs to:
-1. Use media queries to display the right video element for each screen size. Hide video elemnts you do'nt want to show with ``` display: none ``` in your CSS.
+To complete this assignment your code needs to:
+1. Use media queries to display the right video element for each screen size. Hide video elemnts you don't want to show with ``` display: none ``` in your CSS.
 2. Video in full width for every screen size. Place the video at to top  of your page with no margins.
 
 ### :books: Reading List
