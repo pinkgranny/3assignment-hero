@@ -1,0 +1,64 @@
+/*.mobile{
+  video {
+    width: 360px;
+    height: auto;
+  }
+}
+
+
+.tablet{
+  video {
+    width: 720px;
+    height: auto;
+  }
+}
+
+.desktop{
+  video {
+    width: 1280px;
+    height: auto;
+  }
+}*/
+
+video {
+  width: 100%;
+}
+
+@media (max-width: 360px){
+  .mobile{
+    background-size: cover;
+    background-color: green;
+  }
+  .tablet{
+    display: none;
+  }
+  .desktop{
+    display: none;
+  }
+}
+
+@media  (min-width: 361px) and (max-width: 720px){
+  .tablet{
+    background-size: cover;
+    background-color: yellow;
+  }
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    display: none;
+  }
+}
+
+@media (min-width: 721px) {
+  .desktop {
+    background-size: cover;
+    background-color: red;
+  }
+  .tablet{
+    display: none;
+  }
+  .mobile{
+    display: none;
+  }
+}
