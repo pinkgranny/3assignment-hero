@@ -4,8 +4,8 @@ video {
 
 @media (max-width: 360px){
   .mobile{
-    background-size: cover;
-    background-color: green;
+    /*background-size: cover;*/
+    /*background-color: green;*/
   }
   .tablet{
     display: none;
@@ -17,8 +17,8 @@ video {
 
 @media  (min-width: 361px) and (max-width: 720px){
   .tablet{
-    background-size: cover;
-    background-color: yellow;
+    /*background-size: cover;*/
+    /*background-color: yellow;*/
   }
   .mobile{
     display: none;
@@ -30,8 +30,8 @@ video {
 
 @media (min-width: 721px) {
   .desktop {
-    background-size: cover;
-    background-color: red;
+    /*background-size: cover;*/
+    /*background-color: red;*/
   }
   .tablet{
     display: none;
